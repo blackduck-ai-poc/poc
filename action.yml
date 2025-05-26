@@ -110,6 +110,9 @@ inputs:
   polaris_assessment_mode:
     description: 'The test mode type of this scan'
     required: false
+  CUSTOM_HEADER:
+    description: 'Custom header for Polaris input files'
+    required: false
   project_directory:
     description: 'The project source directory. Defaults to repository root directory. Set this to specify a custom folder that is other than repository root'
     required: false
@@ -205,7 +208,7 @@ inputs:
     required: false
   srm_project_name: 
     description: 'SRM project name'
-    required: false 
+    required: false
   srm_branch_name:
     description: 'SRM branch name'
     required: false
